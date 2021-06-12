@@ -9,7 +9,7 @@
 
 ## Starting ideas
 
-These ideas are in very early stages. There is not lots of knowledge of the area of web-scrapping or crawling, only the desire to build such a system and use my knowledge to make
+These ideas are in very early stage. I do not have a lot of knowledge in the area of web-scrapping or crawling, only the desire to build such a system and use my knowledge to make
 the information searchable.
 
 - The system must be distributed. For me, there is no point in building a software that runs on a single machine and can't scale up based on the need of speed or down based
@@ -35,8 +35,8 @@ Therefore, I'm going to create a list of terms and their definitions along the w
 `URL Frontier`: Give the links to the crawler. Has to take into consideration the politeness, URL prioritization, freshness and possibly more.  
 `DNS Resolver (Cache)`: Caching the DNS resolution is useful because this process is going to happen over and over again.
 `URL Filter`: To exclude certain mime-types that are not interesting to the whole process, such as JPG, AVI, etc...  
-`Duplicate Finder`: Needs to find duplicate content with 2 or more different URL's. There is lots of ways to achieve that, one that seems promissing and doesn't take the full
-document in consideration (small parts can change but it is still considered a duplicate) is: [SimHash](https://en.wikipedia.org/wiki/SimHash)
+`Duplicate Finder`: Needs to find duplicate content with 2 or more different URL's. There is lots of ways to achieve that, one that seems promising and doesn't take the full
+document in consideration (small parts can change, but it is still considered a duplicate) is: [SimHash](https://en.wikipedia.org/wiki/SimHash)
 
 ## References
 
