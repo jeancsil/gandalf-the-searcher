@@ -38,6 +38,13 @@ Therefore, I'm going to create a list of terms and their definitions along the w
 `Duplicate Finder`: Needs to find duplicate content with 2 or more different URL's. There is lots of ways to achieve that, one that seems promising and doesn't take the full
 document in consideration (small parts can change, but it is still considered a duplicate) is: [SimHash](https://en.wikipedia.org/wiki/SimHash)
 
+## TODO
+
+- [ ] Be able to crawl a full domain or list of domains to limit the reach of the spider.
+- [ ] Ensure proper cleaning and a plan on how to index.
+- [ ] Define some of the arquitecture.
+- [ ] Make a prototype for the search.
+
 ## References
 
 ### Building a scalable web-crawler with selenium
